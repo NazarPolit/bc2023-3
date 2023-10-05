@@ -13,7 +13,7 @@ function analyzeAndWriteToFile(inputFilePath, outputFilePath) {
 
       for (const item of jsonData) {
         if (item.parent === "BS3_BanksLiab") {
-          const result = `${item.txt}:${item.value}`;
+          const result = `${item.txten}:${item.value}`;
           outputData.push(result);
         }
       }
